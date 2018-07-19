@@ -1,18 +1,18 @@
 package cn.com.hohistar.tutorial.design.pattern.singleton;
 
-public class EagerSingleton {
+public class SampleSingleton {
 
-	private static final EagerSingleton INSTANCE = new EagerSingleton();
+	private static final SampleSingleton INSTANCE = new SampleSingleton();
 	
 	/**
 	 * private method - 
 	 * 私有构造方法，阻止从外部构造实例
 	 */
-	private EagerSingleton() {
+	private SampleSingleton() {
 		
 	}
 	
-	public static EagerSingleton getInstance() {
+	public static SampleSingleton getInstance() {
 		return INSTANCE;
 	}
 	
