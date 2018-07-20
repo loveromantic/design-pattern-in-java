@@ -4,5 +4,8 @@ public interface IJson {
 
 	public Integer getInteger(String key);
 	
+	public String getString(String key);
+	
+	public IJson getJson(String key);
 	
 }
